@@ -170,6 +170,9 @@ li:hover {
     padding: 5px 20px;
     background-color: #FFF80A;
     margin-top: 20px;
+    outline: none;
+    border: none;
+    border-radius: 2px;
 }
 
 #menu {
@@ -200,8 +203,9 @@ li:hover {
     }
 
     .moto p{
+        margin:0 auto;
         text-align: center;
-        width:100%;
+        width:90%;
     }
     .inside-sponsers-section{
         width:60%;
@@ -228,5 +232,46 @@ li:hover {
     }
     .inside-link-section .right-part-of-link-section a{
         font-size:40px;
+    }
+
+    .inside-quotes-section{
+        display: flex;
+        flex-direction: column;
+        width:90%;
+    }
+    .inside-quotes-section .left-part-of-quotes-section{
+        width:90%;
+        margin: 0 auto;
+        text-align: left;
+    }
+    .inside-quotes-section .right-part-of-quotes-section{
+        width:90%;
+        margin: 0 auto;
+        text-align: left;
+        margin-top: 20px;
+    }
+
+    .inside-quotes-section .left-part-of-quotes-section p{
+        font-size:20px;
+        text-align: left;
+    }
+    .inside-quotes-section .right-part-of-quotes-section p{
+        font-size:20px;
+    }
+
+    .inside-work-section{
+        width:90%;
+        margin:0 auto;
+        text-align: left;
+    }
+    .inside-work-section h3{
+        font-size:40px;
+    }
+    .inside-work-section p{
+        font-size: 20px;
+    }
+    .inside-work-section button{
+        padding:15px 20px;
+        border-radius: 2px;
     }
 }
