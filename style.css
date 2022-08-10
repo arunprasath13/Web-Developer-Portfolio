@@ -197,81 +197,217 @@ li:hover {
         padding: 20px 50px;
     }
 
-    .moto h2{
+    .moto h2 {
         text-align: center;
-        width:100%;
+        width: 100%;
     }
 
-    .moto p{
-        margin:0 auto;
+    .moto p {
+        margin: 0 auto;
         text-align: center;
-        width:90%;
+        width: 90%;
     }
-    .inside-sponsers-section{
-        width:60%;
-        gap:20px;
-        margin:0 auto;
+
+    .inside-sponsers-section {
+        width: 60%;
+        gap: 20px;
+        margin: 0 auto;
         justify-content: space-evenly;
     }
-    .inside-link-section{
-        flex-direction: column;   
-        margin:90px auto;     
-        padding-bottom:-40px;
-    }
-    .inside-link-section .left-part-of-link-section{
-        width:80%;
-        margin:0 auto;
+
+    .inside-link-section {
+        flex-direction: column;
+        margin: 90px auto;
+        padding-bottom: -40px;
     }
 
-    .inside-link-section .left-part-of-link-section a{
-        font-size:40px;
-    }
-    .inside-link-section .right-part-of-link-section{
-        width:80%;       
-        margin:40px auto;
-    }
-    .inside-link-section .right-part-of-link-section a{
-        font-size:40px;
+    .inside-link-section .left-part-of-link-section {
+        width: 80%;
+        margin: 0 auto;
     }
 
-    .inside-quotes-section{
+    .inside-link-section .left-part-of-link-section a {
+        font-size: 40px;
+    }
+
+    .inside-link-section .right-part-of-link-section {
+        width: 80%;
+        margin: 40px auto;
+    }
+
+    .inside-link-section .right-part-of-link-section a {
+        font-size: 40px;
+    }
+
+    .inside-quotes-section {
         display: flex;
         flex-direction: column;
-        width:90%;
+        width: 90%;
     }
-    .inside-quotes-section .left-part-of-quotes-section{
-        width:90%;
+
+    .inside-quotes-section .left-part-of-quotes-section {
+        width: 90%;
         margin: 0 auto;
         text-align: left;
     }
-    .inside-quotes-section .right-part-of-quotes-section{
-        width:90%;
+
+    .inside-quotes-section .right-part-of-quotes-section {
+        width: 90%;
         margin: 0 auto;
         text-align: left;
         margin-top: 20px;
     }
 
-    .inside-quotes-section .left-part-of-quotes-section p{
-        font-size:20px;
+    .inside-quotes-section .left-part-of-quotes-section p {
+        font-size: 20px;
         text-align: left;
     }
-    .inside-quotes-section .right-part-of-quotes-section p{
+
+    .inside-quotes-section .right-part-of-quotes-section p {
+        font-size: 20px;
+    }
+
+    .inside-work-section {
+        width: 90%;
+        margin: 0 auto;
+        text-align: left;
+    }
+
+    .inside-work-section h3 {
+        font-size: 40px;
+    }
+
+    .inside-work-section p {
+        font-size: 20px;
+    }
+
+    .inside-work-section button {
+        padding: 15px 20px;
+        border-radius: 2px;
+    }
+}
+
+@media screen and (max-width: 699px) {
+    .inside-header h1{
+        font-size:20px;
+    }
+    .inside-header .ul {
+        display: none;
+    }
+
+    .inside-header button {
+        display: none;
+    }
+
+    #menu {
+        display: block;
+    }
+
+    header {
+        padding: 20px 20px;
+    }
+
+    .moto {
+        width: 100%;
+        width: 0 auto;
+    }
+
+    .moto h2 {
+        text-align: left;
+        margin: 0 auto;
+        width: 95%;
+        font-size: 45px;
+    }
+
+    .moto p {
+        margin: 0 auto;
+        text-align: left;
+        width: 95%;
+        /* font-size:20px; */
+        margin-top: 20px;
+    }
+
+
+    -------
+
+
+    .inside-sponsers-section {
+        width: 20%;
+        gap: 1000px;
+        margin: 0 auto;
+        flex-wrap: rap;
+        justify-content: space-between;
+    }
+
+    .inside-link-section {
+        flex-direction: column;
+        margin: 90px auto;
+        padding-bottom: -40px;
+    }
+
+    .inside-link-section .left-part-of-link-section {
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    .inside-link-section .left-part-of-link-section a {
+        font-size: 40px;
+    }
+
+    .inside-link-section .right-part-of-link-section {
+        width: 80%;
+        margin: 40px auto;
+    }
+
+    .inside-link-section .right-part-of-link-section a {
+        font-size: 40px;
+    }
+
+    .inside-quotes-section {
+        display: flex;
+        flex-direction: column;
+        width: 90%;
+    }
+
+    .inside-quotes-section .left-part-of-quotes-section {
+        width: 90%;
+        margin: 0 auto;
+        text-align: left;
+    }
+
+    .inside-quotes-section .right-part-of-quotes-section {
+        width: 90%;
+        margin: 0 auto;
+        text-align: center;
+        margin-top: 20px;
+    }
+
+    .inside-quotes-section .left-part-of-quotes-section p {
+        font-size: 20px;
+        text-align: left;
+    }
+
+    .inside-quotes-section .right-part-of-quotes-section p {
+        text-align:left;
         font-size:20px;
     }
 
-    .inside-work-section{
-        width:90%;
-        margin:0 auto;
+    .inside-work-section {
+        width: 90%;
+        margin: 0 auto;
         text-align: left;
     }
-    .inside-work-section h3{
-        font-size:40px;
+
+    .inside-work-section h3 {
+        font-size: 40px;
     }
-    .inside-work-section p{
+
+    .inside-work-section p {
         font-size: 20px;
     }
-    .inside-work-section button{
-        padding:15px 20px;
+
+    .inside-work-section button {
+        padding: 15px 20px;
         border-radius: 2px;
     }
 }
